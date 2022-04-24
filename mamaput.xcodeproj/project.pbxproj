@@ -14,6 +14,8 @@
 		6F158F6F2814219500CE3DB0 /* mamaputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F158F6E2814219500CE3DB0 /* mamaputTests.swift */; };
 		6F158F792814219500CE3DB0 /* mamaputUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F158F782814219500CE3DB0 /* mamaputUITests.swift */; };
 		6F158F7B2814219500CE3DB0 /* mamaputUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F158F7A2814219500CE3DB0 /* mamaputUITestsLaunchTests.swift */; };
+		6F158F9028159FD200CE3DB0 /* AppOnboaring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F158F8F28159FD200CE3DB0 /* AppOnboaring.swift */; };
+		6F158F932815A2AD00CE3DB0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6F158F922815A2AD00CE3DB0 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		6F158F742814219500CE3DB0 /* mamaputUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mamaputUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F158F782814219500CE3DB0 /* mamaputUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamaputUITests.swift; sourceTree = "<group>"; };
 		6F158F7A2814219500CE3DB0 /* mamaputUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamaputUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F158F8F28159FD200CE3DB0 /* AppOnboaring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOnboaring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F158F932815A2AD00CE3DB0 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +98,11 @@
 		6F158F5C2814219100CE3DB0 /* mamaput */ = {
 			isa = PBXGroup;
 			children = (
-				6F158F5D2814219100CE3DB0 /* mamaputApp.swift */,
-				6F158F5F2814219100CE3DB0 /* ContentView.swift */,
-				6F158F612814219500CE3DB0 /* Assets.xcassets */,
+				6F158F8B28159D6400CE3DB0 /* Others */,
+				6F158F8828159CF900CE3DB0 /* Resources */,
+				6F158F8A28159D1000CE3DB0 /* Models */,
+				6F158F8928159D0500CE3DB0 /* Views */,
+				6F158F8728159CED00CE3DB0 /* Utils */,
 				6F158F632814219500CE3DB0 /* Preview Content */,
 			);
 			path = mamaput;
@@ -127,6 +133,69 @@
 			path = mamaputUITests;
 			sourceTree = "<group>";
 		};
+		6F158F8728159CED00CE3DB0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6F158F8828159CF900CE3DB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6F158F8928159D0500CE3DB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F158F8E28159E4C00CE3DB0 /* OnBoarding */,
+				6F158F8D28159DEB00CE3DB0 /* Detail */,
+				6F158F8C28159DE300CE3DB0 /* Home */,
+				6F158F5F2814219100CE3DB0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F158F8A28159D1000CE3DB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F158F8F28159FD200CE3DB0 /* AppOnboaring.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F158F8B28159D6400CE3DB0 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6F158F5D2814219100CE3DB0 /* mamaputApp.swift */,
+				6F158F612814219500CE3DB0 /* Assets.xcassets */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6F158F8C28159DE300CE3DB0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6F158F8D28159DEB00CE3DB0 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		6F158F8E28159E4C00CE3DB0 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +212,9 @@
 			dependencies = (
 			);
 			name = mamaput;
+			packageProductDependencies = (
+				6F158F922815A2AD00CE3DB0 /* Lottie */,
+			);
 			productName = mamaput;
 			productReference = 6F158F5A2814219100CE3DB0 /* mamaput.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +287,9 @@
 				Base,
 			);
 			mainGroup = 6F158F512814219100CE3DB0;
+			packageReferences = (
+				6F158F912815A2AD00CE3DB0 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 6F158F5B2814219100CE3DB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +334,7 @@
 			files = (
 				6F158F602814219100CE3DB0 /* ContentView.swift in Sources */,
 				6F158F5E2814219100CE3DB0 /* mamaputApp.swift in Sources */,
+				6F158F9028159FD200CE3DB0 /* AppOnboaring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +659,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F158F912815A2AD00CE3DB0 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F158F922815A2AD00CE3DB0 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F158F912815A2AD00CE3DB0 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F158F522814219100CE3DB0 /* Project object */;
 }
