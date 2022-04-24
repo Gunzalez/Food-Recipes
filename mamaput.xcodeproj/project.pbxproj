@@ -16,6 +16,11 @@
 		6F158F7B2814219500CE3DB0 /* mamaputUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F158F7A2814219500CE3DB0 /* mamaputUITestsLaunchTests.swift */; };
 		6F158F9028159FD200CE3DB0 /* AppOnboaring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F158F8F28159FD200CE3DB0 /* AppOnboaring.swift */; };
 		6F158F932815A2AD00CE3DB0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6F158F922815A2AD00CE3DB0 /* Lottie */; };
+		6F158F952815ABE300CE3DB0 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F158F942815ABE300CE3DB0 /* LottieView.swift */; };
+		6F158F9A2815B7A100CE3DB0 /* onboarding4.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F158F962815B7A100CE3DB0 /* onboarding4.json */; };
+		6F158F9B2815B7A100CE3DB0 /* onboarding1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F158F972815B7A100CE3DB0 /* onboarding1.json */; };
+		6F158F9C2815B7A100CE3DB0 /* onboarding2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F158F982815B7A100CE3DB0 /* onboarding2.json */; };
+		6F158F9D2815B7A100CE3DB0 /* onboarding3.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F158F992815B7A100CE3DB0 /* onboarding3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		6F158F782814219500CE3DB0 /* mamaputUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamaputUITests.swift; sourceTree = "<group>"; };
 		6F158F7A2814219500CE3DB0 /* mamaputUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamaputUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6F158F8F28159FD200CE3DB0 /* AppOnboaring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOnboaring.swift; sourceTree = "<group>"; };
+		6F158F942815ABE300CE3DB0 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		6F158F962815B7A100CE3DB0 /* onboarding4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboarding4.json; sourceTree = "<group>"; };
+		6F158F972815B7A100CE3DB0 /* onboarding1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboarding1.json; sourceTree = "<group>"; };
+		6F158F982815B7A100CE3DB0 /* onboarding2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboarding2.json; sourceTree = "<group>"; };
+		6F158F992815B7A100CE3DB0 /* onboarding3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboarding3.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,11 @@
 		6F158F5C2814219100CE3DB0 /* mamaput */ = {
 			isa = PBXGroup;
 			children = (
+				6F158F8728159CED00CE3DB0 /* Utils */,
 				6F158F8B28159D6400CE3DB0 /* Others */,
 				6F158F8828159CF900CE3DB0 /* Resources */,
 				6F158F8A28159D1000CE3DB0 /* Models */,
 				6F158F8928159D0500CE3DB0 /* Views */,
-				6F158F8728159CED00CE3DB0 /* Utils */,
 				6F158F632814219500CE3DB0 /* Preview Content */,
 			);
 			path = mamaput;
@@ -136,6 +146,7 @@
 		6F158F8728159CED00CE3DB0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6F158F942815ABE300CE3DB0 /* LottieView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -143,6 +154,10 @@
 		6F158F8828159CF900CE3DB0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6F158F972815B7A100CE3DB0 /* onboarding1.json */,
+				6F158F982815B7A100CE3DB0 /* onboarding2.json */,
+				6F158F992815B7A100CE3DB0 /* onboarding3.json */,
+				6F158F962815B7A100CE3DB0 /* onboarding4.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -306,8 +321,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F158F9B2815B7A100CE3DB0 /* onboarding1.json in Resources */,
 				6F158F652814219500CE3DB0 /* Preview Assets.xcassets in Resources */,
+				6F158F9D2815B7A100CE3DB0 /* onboarding3.json in Resources */,
 				6F158F622814219500CE3DB0 /* Assets.xcassets in Resources */,
+				6F158F9C2815B7A100CE3DB0 /* onboarding2.json in Resources */,
+				6F158F9A2815B7A100CE3DB0 /* onboarding4.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +354,7 @@
 				6F158F602814219100CE3DB0 /* ContentView.swift in Sources */,
 				6F158F5E2814219100CE3DB0 /* mamaputApp.swift in Sources */,
 				6F158F9028159FD200CE3DB0 /* AppOnboaring.swift in Sources */,
+				6F158F952815ABE300CE3DB0 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
