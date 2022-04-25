@@ -22,9 +22,7 @@ struct LottieView: UIViewRepresentable {
         animationView.contentMode = .scaleAspectFit
         animationView.loopMode = loopMode
         animationView.play()
-        
         animationView.translatesAutoresizingMaskIntoConstraints = false
-        
         view.addSubview(animationView);
         
         NSLayoutConstraint.activate([
