@@ -27,6 +27,7 @@
 		6F54F1C42817D087005FE7A8 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F54F1C32817D087005FE7A8 /* Ingredient.swift */; };
 		6F54F1C62817D10F005FE7A8 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F54F1C52817D10F005FE7A8 /* Recipe.swift */; };
 		6FE3FC462820A2BE00F44615 /* JSONFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3FC452820A2BE00F44615 /* JSONFileManager.swift */; };
+		6FE3FC4A2820A9C200F44615 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3FC492820A9C200F44615 /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		6F54F1C32817D087005FE7A8 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		6F54F1C52817D10F005FE7A8 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		6FE3FC452820A2BE00F44615 /* JSONFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileManager.swift; sourceTree = "<group>"; };
+		6FE3FC492820A9C200F44615 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				6F54F1BF2816D0D4005FE7A8 /* RecipesListView.swift */,
+				6FE3FC492820A9C200F44615 /* BannerView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE3FC4A2820A9C200F44615 /* BannerView.swift in Sources */,
 				6F158F602814219100CE3DB0 /* ContentView.swift in Sources */,
 				6F158F5E2814219100CE3DB0 /* mamaputApp.swift in Sources */,
 				6FE3FC462820A2BE00F44615 /* JSONFileManager.swift in Sources */,
