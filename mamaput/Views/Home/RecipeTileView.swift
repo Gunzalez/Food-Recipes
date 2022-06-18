@@ -16,7 +16,7 @@ struct RecipeTileView: View {
         Image(recipe.imageName)
             .resizable()
             .scaledToFill()
-            .overlay(LinearGradient(colors: [.black.opacity(0.5), .clear, .black.opacity(0.5)], startPoint: .top, endPoint: .bottomTrailing))
+            .overlay(LinearGradient(colors: [.black.opacity(0.5), .clear, .black.opacity(0.5)], startPoint: .topLeading, endPoint: .bottomTrailing))
             .frame(width: UIScreen.main.bounds.width * 0.9, height: 300)
 //            .clipped()
             .clipShape(RoundedRectangle(cornerRadius: 20))
